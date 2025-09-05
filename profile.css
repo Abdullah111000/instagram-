@@ -1,0 +1,64 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 245px;
+    height: 100vh;
+    border-right: 1px solid #dbdbdb;
+    padding: 24px;
+}
+
+.sidebar-item-pi img {
+    width: 24px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.botprofile {
+    width: 24px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.brand-logo {
+    padding: 12px;
+    margin-bottom: 24px;
+    margin-left: -15px;
+}
+
+
+.brand-logo-tab {
+    padding: 12px;
+    margin-bottom: 24px;
+    margin-left: -15px;
+}
+
+
+.fas {
+    font-size: 23px;
+    margin-right: 16px;
+}
+.far {
+    font-size: 23px;
+}
+@media (min-width:1264px) {
+    .brand-logo-tab{
+     display: none;
+    }
+    
+ }
+@media (max-width:1264px) {
+    .icons,.brand-logo{
+       display: none;
+   }
+   .sidebar{
+       width: 70px;
+   }
+  
+}
